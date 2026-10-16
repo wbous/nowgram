@@ -418,7 +418,7 @@ public class ApplicationLoader extends Application implements CameraXConfig.Prov
 
         applicationHandler = new Handler(applicationContext.getMainLooper());
 
-        org.osmdroid.config.Configuration.getInstance().setUserAgentValue("nowgram/" + BuildConfig.VERSION_NAME + " (+https://github.com/exteraless/exteraless)");
+        org.osmdroid.config.Configuration.getInstance().setUserAgentValue("nowgram/" + BuildConfig.VERSION_NAME + " (+https://github.com/wbous/nowgram)");
         final File osmdroidBasePath = new File(ApplicationLoader.applicationContext.getCacheDir(), "osmdroid");
         org.osmdroid.config.Configuration.getInstance().setOsmdroidBasePath(osmdroidBasePath);
         org.osmdroid.config.Configuration.getInstance().setOsmdroidTileCache(new File(osmdroidBasePath, "tiles"));

@@ -189,7 +189,7 @@ public class OpenExteraSettingsActivity extends BaseNekoSettingsActivity {
             getMessagesController().openByUserName("nowgram", this, 1);
         } else if (position == sourceRow) {
             org.telegram.messenger.browser.Browser.openUrl(getParentActivity(),
-                    "https://github.com/exteraless/exteraless");
+                    "https://github.com/wbous/nowgram");
         } else if (position == designerRow) {
             getMessagesController().openByUserName("the8055u", this, 1);
         } else if (position == designStudioRow) {

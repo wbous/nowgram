@@ -420,7 +420,7 @@ public final class OnlineLyrics {
         try {
             connection.setConnectTimeout(10_000);
             connection.setReadTimeout(15_000);
-            connection.setRequestProperty("User-Agent", "nowgram/" + BuildVars.BUILD_VERSION_STRING + " (https://github.com/exteraless/exteraless)");
+            connection.setRequestProperty("User-Agent", "nowgram/" + BuildVars.BUILD_VERSION_STRING + " (https://github.com/wbous/nowgram)");
             connection.setRequestProperty("Accept", "application/json");
             int code = connection.getResponseCode();
             if (code == 404) {

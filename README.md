@@ -31,14 +31,14 @@ exteraGram реализованы с открытым исходным кодо�
 ### Ссылки
 
 * Канал: [@nowgram](https://t.me/exteraless)
-* Исходники: [github.com/exteraless/exteraless](https://github.com/exteraless/exteraless)
+* Исходники: [github.com/wbous/nowgram](https://github.com/wbous/nowgram)
 
 ### Сборка
 
 1. Склонировать репозиторий вместе с подмодулями:
 
     ```bash
-    git clone --recursive --shallow-submodules https://github.com/exteraless/exteraless.git nowgram
+    git clone --recursive --shallow-submodules https://github.com/wbous/nowgram.git nowgram
     ```
 
     Если репозиторий уже склонирован без подмодулей:
@@ -146,7 +146,7 @@ studio. Rights to those materials belong to their authors.
 1. Clone with submodules:
 
     ```bash
-    git clone --recursive --shallow-submodules https://github.com/exteraless/exteraless.git nowgram
+    git clone --recursive --shallow-submodules https://github.com/wbous/nowgram.git nowgram
     ```
 
 2. Get `TELEGRAM_APP_ID` and `TELEGRAM_APP_HASH` from [my.telegram.org](https://my.telegram.org/auth)
